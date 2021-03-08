@@ -37,7 +37,7 @@ probabilitas_k = []
 sump = 0
 for a in range(len(frek)):
     sump = sump + probabilitas[a]
-    st.write("prob kumulatif minggu ke-", a, "=", sump)
+    st.write("probabilitas kumulatif minggu ke-", a, "=", sump)
     probabilitas_k.append(sump)
 
 probabilitas_kd = np.array([probabilitas_k])
