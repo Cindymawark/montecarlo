@@ -4,7 +4,7 @@ import numpy as np
 import random
 import os
 
-st.title('Program Motencarlo')
+st.title('Program Pemodelan Montecarlo')
 st.write('NRP  : 152017084')
 st.write('Nama : Cindy Mawar Kasih')
 
